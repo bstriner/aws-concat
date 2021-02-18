@@ -1,0 +1,15 @@
+recursive-include \
+ aws_concat \
+ Dockerfile \
+ *.sh \
+ *.txt \
+ *.types \
+ *.yml \
+ *.yaml \
+ *.properties \
+ *.bat \
+ *.js \
+ *.py \
+ *.json
+global-exclude *.py[cod]
+prune aws_concat/concatFiles/node_modules
